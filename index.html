@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Run</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <canvas id="gameCanvas" width="960" height="540"></canvas>
+      <div id="hud">
+        <div class="status-row">
+          <div class="panel health">
+            <span>Banana Health</span>
+            <div class="bar"><div id="healthBar"></div></div>
+          </div>
+          <div class="panel stats">
+            <span id="enemyStatus">Banana Bandits: 0</span>
+          </div>
+        </div>
+        <div id="messageBox">Click to lock mouse. Move with WASD. Banana blaster is ready. Press R to restart.</div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
