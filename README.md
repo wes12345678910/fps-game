@@ -1,2 +1,2 @@
-# fps-game
-A browser FPS prototype with raycast rendering, movement, enemies, and shooting mechanics.
+# Banana Run
+A browser FPS prototype where you are a monkey and you monkey around
